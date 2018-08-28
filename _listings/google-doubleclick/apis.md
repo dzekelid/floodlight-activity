@@ -9,11 +9,90 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Floodlight Activity
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/floodlight-activity/master/_listings/google-doubleclick/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Doubleclick Merged API - Get Floodlight Activities
+  x-api-slug: userprofilesprofileidfloodlightactivities-get
+  description: Retrieves a list of floodlight activities, possibly filtered. This
+    method supports paging.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/floodlight-activity/master/_listings/google-doubleclick/userprofilesprofileidfloodlightactivities-get-openapi.md
+- name: Google Doubleclick Merged API - Update Floodlight Activity
+  x-api-slug: userprofilesprofileidfloodlightactivities-patch
+  description: Updates an existing floodlight activity. This method supports patch
+    semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/floodlight-activity/master/_listings/google-doubleclick/userprofilesprofileidfloodlightactivities-patch-openapi.md
+- name: Google Doubleclick Merged API - Insert Floodlight Activity
+  x-api-slug: userprofilesprofileidfloodlightactivities-post
+  description: Inserts a new floodlight activity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/floodlight-activity/master/_listings/google-doubleclick/userprofilesprofileidfloodlightactivities-post-openapi.md
+- name: Google Doubleclick Merged API - Update Floodlight Activity
+  x-api-slug: userprofilesprofileidfloodlightactivities-put
+  description: Updates an existing floodlight activity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/floodlight-activity/master/_listings/google-doubleclick/userprofilesprofileidfloodlightactivities-put-openapi.md
+- name: Google Doubleclick Merged API - Generate Tag for Floodlight Activity
+  x-api-slug: userprofilesprofileidfloodlightactivitiesgeneratetag-post
+  description: Generates a tag for a floodlight activity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/floodlight-activity/master/_listings/google-doubleclick/userprofilesprofileidfloodlightactivitiesgeneratetag-post-openapi.md
+- name: Google Doubleclick Merged API - Delete Floodlight Activity
+  x-api-slug: userprofilesprofileidfloodlightactivitiesid-delete
+  description: Deletes an existing floodlight activity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/floodlight-activity/master/_listings/google-doubleclick/userprofilesprofileidfloodlightactivitiesid-delete-openapi.md
+- name: Google Doubleclick Merged API - Get Floodlight Activity
+  x-api-slug: userprofilesprofileidfloodlightactivitiesid-get
+  description: Gets one floodlight activity by ID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/floodlight-activity/master/_listings/google-doubleclick/userprofilesprofileidfloodlightactivitiesid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.dataflow.api.gallery.streamdata.io
